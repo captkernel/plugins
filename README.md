@@ -20,6 +20,7 @@ For example: `/plugin install skills-curator@captkernel`
 | `thinking-tools` | Council, premortem, red team, pressure test, brutal assessment. | [claude-thinking-tools](https://github.com/captkernel/claude-thinking-tools) |
 | `writing-tools` | Humanize, tighten and hook-writing skills. | [claude-writing-tools](https://github.com/captkernel/claude-writing-tools) |
 | `everyday-tools` | Cheap flights, fare myths, focus steps, fast learning plans. | [claude-everyday-tools](https://github.com/captkernel/claude-everyday-tools) |
+| `instacomp` | Your Instagram shares and saves as a searchable library you can ask questions. Needs the `instacomp` CLI. | [instacomp](https://github.com/captkernel/instacomp) |
 
 ## Updates
 

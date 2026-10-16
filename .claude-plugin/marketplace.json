@@ -1,12 +1,13 @@
 {
   "name": "captkernel",
   "owner": { "name": "captKernel", "url": "https://github.com/captkernel" },
-  "description": "captKernel's Claude Code plugins: skill curation, project setup, thinking, writing and everyday tools.",
+  "description": "captKernel's Claude Code plugins: skill curation, project setup, thinking, writing, everyday tools and an Instagram library.",
   "plugins": [
     { "name": "skills-curator", "source": { "source": "url", "url": "https://github.com/captkernel/Skills_Curator.git" }, "description": "Evaluate, recommend and customize Claude skills before you install them; remembers every decision.", "category": "productivity" },
     { "name": "claunchpad", "source": { "source": "url", "url": "https://github.com/captkernel/Claunchpad.git" }, "description": "One skill that sets a project up for Claude: CLAUDE.md, persistent memory, agent teams, councils.", "category": "productivity" },
     { "name": "thinking-tools", "source": { "source": "url", "url": "https://github.com/captkernel/claude-thinking-tools.git" }, "description": "Council, premortem, red team, pressure test, brutal assessment.", "category": "productivity" },
     { "name": "writing-tools", "source": { "source": "url", "url": "https://github.com/captkernel/claude-writing-tools.git" }, "description": "Humanize, tighten and hook-writing skills.", "category": "productivity" },
-    { "name": "everyday-tools", "source": { "source": "url", "url": "https://github.com/captkernel/claude-everyday-tools.git" }, "description": "Cheap flights, fare myths, focus steps, fast learning plans.", "category": "productivity" }
+    { "name": "everyday-tools", "source": { "source": "url", "url": "https://github.com/captkernel/claude-everyday-tools.git" }, "description": "Cheap flights, fare myths, focus steps, fast learning plans.", "category": "productivity" },
+    { "name": "instacomp", "source": { "source": "git-subdir", "url": "https://github.com/captkernel/instacomp.git", "path": "plugin" }, "description": "Turn the posts shared in your Instagram chats and Saved into a searchable library, then ask it questions. Needs the instacomp CLI.", "category": "productivity" }
   ]
 }
